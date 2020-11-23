@@ -1,10 +1,18 @@
-/* -------------------------------------------
-
+/***
+ *     ____  _________  ____  _     _____   ___________     _________  ____  _____  ____  ____ 
+ *    /  __\\/  __/  _ \\/  _ \\/ \\__//  __/  /  __/  __/ \\  //  __/  __\\/  _ \\/__ __\\/  _ \\/  __\\
+ *    |  \\/||  \\ | / \\|| | \\|| |\\/||  \\    | |  |  \\ | |\\ ||  \\ |  \\/|| / \\|  / \\  | / \\||  \\/|
+ *    |    /|  /_| |-||| |_/|| |  ||  /_   | |_//  /_| | \\||  /_|    /| |-||  | |  | \\_/||    /
+ *    \\_/\\_\\\\____\\_/ \\|\\____/\\_/  \\\\____\\  \\____\\____\\_/  \\\\____\\_/\\_\\\\_/ \\|  \\_/  \\____/\\_/\\_\\
+ *                                                                                             
+ 
 README GENERATOR v1.0
 TROY DORMAN
 UNiVERSiTY OF MiNNESOTA CODiNG BOOTCAMP
 FALL 2020
 --------------------------------------------*/
+
+
 
 
 /* reference to prompt generating add-on */
@@ -20,17 +28,11 @@ const readme = require('./readme');
 const filesystem = require('fs');
 
 // extract keys from Map for list choises
-// v-- this didn't work put both in 
 const licenseNames = [...licenseMap.keys()];
 
-/* console.log(licenseMap); */
 
 
-
-
-/* console.log(licenseNames); */
-
-// some sort of ascii art introduction?
+console.log(require('./ascii_art_intro'));
 
 // let's ask the user some questions
 inquirer
