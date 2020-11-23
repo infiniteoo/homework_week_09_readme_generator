@@ -1,7 +1,7 @@
-[comment]: <> (This is a comment, it will not be included)
-[comment]: <> (in  the output file unless you use it in)
-[comment]: <> (a reference style link.)
+let projectTitle, licenseBadge, descriptionEntered, installationEntered, usageEntered,
+contributingEntered, testsEntered, githubUsername, emailEntered, licenseEntered = "";
 
+const readme = `
 # ${projectTitle}
 ${licenseBadge}
 
@@ -26,7 +26,6 @@ ${testsEntered}
 ## LICENSE
 ${licenseEntered}
 
+`
 
-
-
-
+module.exports = readme;
