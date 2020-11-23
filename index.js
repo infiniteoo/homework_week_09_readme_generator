@@ -22,7 +22,8 @@ inquirer
     .catch(error => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
-            console.log("ERROR! Prompt requires that it is run in an interactive environment. (I.e. One where process.stdin.isTTY is true). Sorry! I have no idea how to fix it. Good luck.");
+            console.log(`ERROR! Prompt requires that it is run in an interactive environment. 
+            I have no idea how to fix it. Good luck.`);
         } else {
             console.log(`ERROR!  Something went terribly wrong.  The program halted with this
             error message: ${error}! I have no idea how to fix it, I'm just a stupid robot. Good luck.`);
@@ -34,6 +35,8 @@ inquirer
         const readme = require('./readme');
         console.log(readme);
         // write the text file using the answers and the readme text string
+        filesystem.writeFile("README.md", readme, error => console.log(`of course there was an 
+        error!  this is the error: ${error}`));
     });
 
 
