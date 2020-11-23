@@ -1,30 +1,29 @@
-let projectTitle, licenseBadge, descriptionEntered, installationEntered, usageEntered,
-contributingEntered, testsEntered, githubUsername, emailEntered, licenseEntered = "";
+const answers = require('./index');
 
 const readme = `
-# ${projectTitle}
-${licenseBadge}
+# ${answers.projectTitle}
+${answers.licenseBadge}
 
 ## DESCRIPTION
-${descriptionEntered}
+${answers.descriptionEntered}
 
 ## INSTALLATION
-${installationEntered}
+${answers.installationEntered}
 
 ## USAGE
-${usageEntered}
+${answers.usageEntered}
 
 ## CONTRIBUTING
-${contributingEntered}
+${answers.contributingEntered}
 
 ## TESTS
-${testsEntered}
+$answers.{testsEntered}
 
 ## QUESTIONS
-### https://github.com/${githubUsername}
-#### EMAIL ADDRESS: ${emailEntered}
+### https://github.com/${answers.githubUsername}
+#### EMAIL ADDRESS: ${answers.emailEntered}
 ## LICENSE
-${licenseEntered}
+${answers.licenseEntered}
 
 `
 

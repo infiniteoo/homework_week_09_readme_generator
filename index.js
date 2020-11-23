@@ -8,32 +8,32 @@ FALL 2020
 /* reference to prompt generating add-on */
 const inquirer = require('inquirer');
 
-/* main string we'll be inserting custom values into */
-const readme = require('./readme');
-
 /* reference to filesystem to write readme file */
 const filesystem = require('fs');
-
-
 
 // cool intro art
 console.log(require('./ascii_art_intro'));
 
-// let's ask the user some questions
-
+// grab questions array from other file
 const questions = require('./questions');
 
 inquirer
     .prompt(questions)
-    .then(answers => {
-        console.log(answers);
-    })
     .catch(error => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
+            console.log("ERROR! Prompt requires that it is run in an interactive environment. (I.e. One where process.stdin.isTTY is true). Sorry! I have no idea how to fix it. Good luck.");
         } else {
-            // Something else when wrong
+            console.log(`ERROR!  Something went terribly wrong.  The program halted with this
+            error message: ${error}! I have no idea how to fix it, I'm just a stupid robot. Good luck.`);
         }
+    })
+    .then(answers => {
+        module.exports = answers;
+        /* main string we'll be inserting custom values into */
+        const readme = require('./readme');
+        console.log(readme);
+        // write the text file using the answers and the readme text string
     });
 
 
