@@ -19,9 +19,16 @@ const readme = require('./readme');
 /* reference to filesystem to write readme file */
 const filesystem = require('fs');
 
+// extract keys from Map for list choises
+// v-- this didn't work put both in 
+const licenseNames = [...licenseMap.keys()];
+
+/* console.log(licenseMap); */
 
 
 
+
+/* console.log(licenseNames); */
 
 // some sort of ascii art introduction?
 
@@ -72,9 +79,7 @@ inquirer
             type: "list",
             name: "licenseEntered",
             message: "pick a license:",
-            choices: [
-                "1", "2", "3"
-            ]
+            choices: licenseNames
         },
     ])
     .then(answers => {
