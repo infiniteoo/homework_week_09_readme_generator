@@ -35,11 +35,14 @@ inquirer
         const readme = require('./readme');
         console.log(readme);
         // write the text file using the answers and the readme text string
-        filesystem.writeFile("README.md", readme, error => console.log(`of course there was an 
-        error!  this is the error: ${error}`));
+        filesystem.writeFile("README.md", readme, (err) => {
+            if (err) throw err;
+            console.log(`file successfully written.`)
+
+
+        });
+
     });
-
-
 
 
 

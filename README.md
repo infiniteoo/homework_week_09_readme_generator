@@ -1,25 +1,25 @@
 
-# asdf
+# Readme Generator v1.0
 undefined
 
 ## DESCRIPTION
-tor
+Written By Troy Dorman
 
 ## INSTALLATION
-ggh
+git clone readme
 
 ## USAGE
-fdg
+node index.js
 
 ## CONTRIBUTING
-asdasdf
+thanks inquirer!
 
 ## TESTS
 $answers.{testsEntered}
 
 ## QUESTIONS
-### https://github.com/gg
-#### EMAIL ADDRESS: h
+### https://github.com/infiniteoo
+#### EMAIL ADDRESS: troydorman@gmail.com
 ## LICENSE
 GNU General Public License v3.0
 
