@@ -23,25 +23,25 @@ ${licenseBadgeLink}
 * [License Information](##LICENSE)
 * [Installation](#installation)
 
-##DESCRIPTION
+## DESCRIPTION
 ${answers.descriptionEntered}
 
-##INSTALLATION
+## INSTALLATION
 ${answers.installationEntered}
 
-##USAGE
+## USAGE
 ${answers.usageEntered}
 
-##CONTRIBUTING
+## CONTRIBUTING
 ${answers.contributingEntered}
 
-##TESTS
+## TESTS
 ${answers.testsEntered}
 
-##QUESTIONS
-###https://github.com/${answers.githubUsername}
-####EMAIL ADDRESS: ${answers.emailEntered}
-##LICENSE
+## QUESTIONS
+### https://github.com/${answers.githubUsername}
+#### EMAIL ADDRESS: ${answers.emailEntered}
+## LICENSE
 ${answers.licenseEntered}
 `
 

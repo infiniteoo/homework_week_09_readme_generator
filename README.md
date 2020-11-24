@@ -1,6 +1,6 @@
 
-# dfgd
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+# sadf
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 #
 ## TABLE OF CONTENTS
 * [Description](##DESCRIPTION)
@@ -12,23 +12,23 @@
 * [License Information](##LICENSE)
 * [Installation](#installation)
 
-##DESCRIPTION
-dafgadfg
+## DESCRIPTION
+adfhadfh
 
-##INSTALLATION
-agagsgasg
+## INSTALLATION
+adhadfhadh
 
-##USAGE
-afgadfg
+## USAGE
+aharhahr
 
-##CONTRIBUTING
-dafgadg
+## CONTRIBUTING
+adhdaha
 
-##TESTS
-adfgadfg
+## TESTS
+adhadh
 
-##QUESTIONS
-###https://github.com/adfhadfh
-####EMAIL ADDRESS: jdfja
-##LICENSE
-Creative Commons Zero v1.0 Universal
+## QUESTIONS
+### https://github.com/adfhafdh
+#### EMAIL ADDRESS: dafhafdh
+## LICENSE
+Mozilla Public License 2.0
