@@ -1,6 +1,6 @@
 
-# Troy's README.md Generator
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# troy's readme generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![example gif](/example/example.gif)
 #
@@ -24,7 +24,7 @@ Assuming you've got node installed, simply type: node index.js
 Answer each prompt honestly, and use the arrow keys to select your license.
 
 ## CONTRIBUTORS
-Written by Troy Dorman
+written by troy dorman
 
 ## TESTS
 git clone https://github.com/infiniteoo/homework_week_09_readme_generator
@@ -35,4 +35,4 @@ git clone https://github.com/infiniteoo/homework_week_09_readme_generator
 #### Email Address: troydorman@gmail.com
 
 ## LICENSE
-GNU General Public License v3.0
+MIT License
