@@ -12,6 +12,7 @@ const readme =
 `
 # ${answers.projectTitle}
 ${licenseBadgeLink}
+![example gif](/example/example.gif)
 #
 ## TABLE OF CONTENTS
 * [Description](#DESCRIPTION)

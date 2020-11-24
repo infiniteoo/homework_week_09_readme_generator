@@ -1,6 +1,7 @@
 
 # Troy's README.md Generator
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+![example gif](/example/example.gif)
 #
 ## TABLE OF CONTENTS
 * [Description](#DESCRIPTION)
@@ -22,7 +23,7 @@ Assuming you've got node installed, simply type: node index.js
 Answer each prompt honestly, and use the arrow keys to select your license.
 
 ## CONTRIBUTORS
-Written by Troy Dorman
+Written by Troy Dorman
 
 ## TESTS
 git clone https://github.com/infiniteoo/homework_week_09_readme_generator
@@ -33,4 +34,4 @@ git clone https://github.com/infiniteoo/homework_week_09_readme_generator
 #### Email Address: troydorman@gmail.com
 
 ## LICENSE
-GNU Lesser General Public License v3.0
+Mozilla Public License 2.0
