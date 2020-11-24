@@ -1,8 +1,12 @@
 const answers = require('./index');
+const licenseMap = require('./licenses');
 
-const readme = `
+let licenseBadgeLink = licenseMap.get(answers.licenseEntered);
+
+const readme = 
+`
 # ${answers.projectTitle}
-${answers.licenseBadge}
+${licenseBadgeLink}
 
 ## DESCRIPTION
 ${answers.descriptionEntered}
@@ -17,14 +21,13 @@ ${answers.usageEntered}
 ${answers.contributingEntered}
 
 ## TESTS
-$answers.{testsEntered}
+${answers.testsEntered}
 
 ## QUESTIONS
 ### https://github.com/${answers.githubUsername}
 #### EMAIL ADDRESS: ${answers.emailEntered}
 ## LICENSE
 ${answers.licenseEntered}
-
 `
 
 module.exports = readme;
