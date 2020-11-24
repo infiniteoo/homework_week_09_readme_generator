@@ -1,34 +1,36 @@
 
-# sadf
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# Project README.md Generator by Troy Dorman
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 #
 ## TABLE OF CONTENTS
-* [Description](##DESCRIPTION)
-* [Installation](##INSTALLATION)
-* [Usage Instructions](##USAGE)
-* [Contributing Shoutouts](##CONTRIBUTING)
-* [Test Instructions](##TESTS)
-* [Questions | Contact](##QUESTIONS)
-* [License Information](##LICENSE)
-* [Installation](#installation)
+* [Description](#DESCRIPTION)
+* [Installation](#INSTALLATION)
+* [Usage Instructions](#USAGE)
+* [Contributing Shoutouts](#CONTRIBUTING)
+* [Test Instructions](#TESTS)
+* [Questions | Contact](#QUESTIONS)
+* [License Information](#LICENSE)
+
 
 ## DESCRIPTION
-adfhadfh
+using the power of javascript we generate and write a readme file!
 
 ## INSTALLATION
-adhadfhadh
+git clone 
 
 ## USAGE
-aharhahr
+node index
 
 ## CONTRIBUTING
-adhdaha
+thanks to inquirer!
 
 ## TESTS
-adhadh
+node index.js
 
 ## QUESTIONS
-### https://github.com/adfhafdh
-#### EMAIL ADDRESS: dafhafdh
+
+#### Github Portfolio: https://github.com/infiniteoo
+#### Email Address: troydorman@gmail.com
+
 ## LICENSE
-Mozilla Public License 2.0
+Apache License 2.0

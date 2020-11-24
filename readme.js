@@ -14,14 +14,14 @@ const readme =
 ${licenseBadgeLink}
 #
 ## TABLE OF CONTENTS
-* [Description](##DESCRIPTION)
-* [Installation](##INSTALLATION)
-* [Usage Instructions](##USAGE)
-* [Contributing Shoutouts](##CONTRIBUTING)
-* [Test Instructions](##TESTS)
-* [Questions | Contact](##QUESTIONS)
-* [License Information](##LICENSE)
-* [Installation](#installation)
+* [Description](#DESCRIPTION)
+* [Installation](#INSTALLATION)
+* [Usage Instructions](#USAGE)
+* [Contributing Shoutouts](#CONTRIBUTING)
+* [Test Instructions](#TESTS)
+* [Questions | Contact](#QUESTIONS)
+* [License Information](#LICENSE)
+
 
 ## DESCRIPTION
 ${answers.descriptionEntered}
@@ -39,8 +39,10 @@ ${answers.contributingEntered}
 ${answers.testsEntered}
 
 ## QUESTIONS
-### https://github.com/${answers.githubUsername}
-#### EMAIL ADDRESS: ${answers.emailEntered}
+
+#### Github Portfolio: https://github.com/${answers.githubUsername}
+#### Email Address: ${answers.emailEntered}
+
 ## LICENSE
 ${answers.licenseEntered}
 `
