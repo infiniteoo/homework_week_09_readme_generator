@@ -11,7 +11,7 @@ let licenseBadgeLink = licenseMap.get(answers.licenseEntered);
 const readme = 
 `
 # ${answers.projectTitle}
-${licenseBadgeLink}
+${licenseBadgeLink}\n
 ![example gif](/example/example.gif)
 #
 ## TABLE OF CONTENTS
