@@ -4,7 +4,7 @@ const answers = require('./index');
 // grab the license map
 const licenseMap = require('./licenses');
 
-// assign the license badge URL to a string to place in the file file
+// assign the license badge URL to a string to place in the final file
 let licenseBadgeLink = licenseMap.get(answers.licenseEntered);
 
 // template literal string to customize with variable inserts
@@ -17,7 +17,7 @@ ${licenseBadgeLink}
 * [Description](#DESCRIPTION)
 * [Installation](#INSTALLATION)
 * [Usage Instructions](#USAGE)
-* [Contributing Shoutouts](#CONTRIBUTING)
+* [Contributors](#CONTRIBUTORS)
 * [Test Instructions](#TESTS)
 * [Questions | Contact](#QUESTIONS)
 * [License Information](#LICENSE)
@@ -32,7 +32,7 @@ ${answers.installationEntered}
 ## USAGE
 ${answers.usageEntered}
 
-## CONTRIBUTING
+## CONTRIBUTORS
 ${answers.contributingEntered}
 
 ## TESTS

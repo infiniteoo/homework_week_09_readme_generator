@@ -28,7 +28,7 @@ const questions = [
     {
         type: "input",
         name: "contributingEntered",
-        message: "Contributing guidelines:"
+        message: "Contributors:"
     },
     {
         type: "input",
